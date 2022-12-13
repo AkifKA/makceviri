@@ -11,10 +11,10 @@
         padding: 1rem;
     }
     &__link{
-        font-size: 0.9rem;
+        font-size: 1rem;
         text-transform: capitalize;
         font-weight: 500;
-        font-family: $font-family;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         // transition: all 1s;
         @include transition(1s);
 

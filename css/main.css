@@ -17,10 +17,10 @@
   padding: 1rem;
 }
 .nav__link {
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-transform: capitalize;
   font-weight: 500;
-  font-family: "Zen Dots", cursive;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: all 1s;
 }
 .nav__link:hover {
