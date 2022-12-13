@@ -1,5 +1,45 @@
-aside {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header .logo {
+  background-color: blueviolet;
+}
+header .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 14px;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5px auto;
+  align-items: flex-end;
+  text-align: center;
+}
+.nav-bar li {
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: chocolate;
+  color: white;
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=main.css.map */

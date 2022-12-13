@@ -1,3 +1,9 @@
-aside{
-    color: red;
-}
+@import "./pages/reset";
+
+
+@import "./abstracts/mixins","./abstracts/variables";
+
+@import "./components/articles" , "./components/cards", "./components/footer", "./components/header";
+
+
+
