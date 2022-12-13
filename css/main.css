@@ -1,45 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Zen+Dots&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+.nav {
+  padding: 1rem;
+  height: 10vh;
 }
-header .logo {
-  background-color: blueviolet;
-}
-header .title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.nav__list {
   text-align: center;
-  gap: 0;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: "Zen Dots", cursive;
+  transition: all 1s;
+}
+.nav__link:hover {
+  color: blue;
+}
+.nav__link--active {
+  color: #ff652f;
 }
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  color: black;
-  font-size: 14px;
+body {
+  font-family: "Zen Dots", cursive;
+  line-height: 1;
+  color: #eee;
+  background-color: #272727;
+  height: 100vh;
 }
-.nav-bar ul {
+
+.header {
   display: flex;
-  justify-content: space-evenly;
-  margin-right: 5px auto;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  padding: 5px;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.main-title {
   text-align: center;
+  padding: 1rem;
 }
-.nav-bar li {
-  margin-right: 5px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: chocolate;
-  color: white;
-  list-style-type: none;
+.main-title h3 {
+  padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
 }
 
 /*# sourceMappingURL=main.css.map */

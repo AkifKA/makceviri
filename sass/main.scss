@@ -1,11 +1,43 @@
 @import "./base/reset";
+@import "./abstracts/mixins", "./abstracts/variables";
+@import "./components/articles", "./components/cards", "./components/footer", "./components/nav";
 
+@import "./pages/about", "./pages/buhari", "./pages/contact", "./pages/form", "./pages/modern", "./pages/others";
 
-@import "./abstracts/mixins","./abstracts/variables";
+body{
+    font-family: $font-family;
+    line-height: 1;
+    color: $text-color;
+    background-color: $primary-color;
+    height: 100vh;
+}
 
-@import "./components/articles" , "./components/cards", "./components/footer", "./components/header";
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__logo{
+        padding: 5px;
+        border-radius: 50%;
+        width: 150px;
+    }
+}
 
-@import "./pages/about", "./pages/buhari", "./pages/contact", "./pages/form", "./pages/others"
+.main-title{
+    text-align: center;
+    padding: 1rem;
+        h1{
+            
 
+            }  
+            h3{
+                padding: 1.5rem;
+            } 
+}
 
+a{
+    text-decoration: none;
+    color: $text-color;
+}
 
