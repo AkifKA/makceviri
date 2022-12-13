@@ -1,9 +1,11 @@
-@import "./pages/reset";
+@import "./base/reset";
 
 
 @import "./abstracts/mixins","./abstracts/variables";
 
 @import "./components/articles" , "./components/cards", "./components/footer", "./components/header";
+
+@import "./pages/about", "./pages/buhari", "./pages/contact", "./pages/form", "./pages/others"
 
 
 
